@@ -14,8 +14,8 @@ gem "github-pages", group: :jekyll_plugins
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "html-proofer"
 gem "minimal-mistakes-jekyll"
+gem "html-proofer"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
