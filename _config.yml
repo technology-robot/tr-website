@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Technology Robot"
 title_separator          : "-"
-subtitle                 : "advancing high-class next-level technology"  # site tagline that appears below site title in masthead
+subtitle                 :   # site tagline that appears below site title in masthead
 name                     : "Technology Robot Master"
 description              : "A company that advances and applies the high-class next-level technology"
 url                      : "https://technology-robot.web.app/"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
