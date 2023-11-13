@@ -1,4 +1,6 @@
 # main links
 main:
-  - title: "Posts"
+  - title: "Show Posts"
     url: /posts/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
