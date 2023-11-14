@@ -11,15 +11,15 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
+# remote_theme             : "mmistakes/minimal-mistakes"
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Technology Robot"
+title                    : "Serious, complex AI made simple"
 title_separator          : "-"
-subtitle                 :   # site tagline that appears below site title in masthead
+subtitle                 : "dedicated to deliver the best technological solution for your need" # site tagline that appears below site title in masthead
 name                     : "Sam Koesnadi"
 description              : "A step in technology"
 url                      : "https://technology-robot.com"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -27,7 +27,7 @@ baseurl                  : ""  # the subpath of your site, e.g. "/blog"
 repository               : "technology-robot/technology-robot-website"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Technology Robot"  # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -151,7 +151,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sam@technology-robot.com"
 
 # Reading Files
 include:
