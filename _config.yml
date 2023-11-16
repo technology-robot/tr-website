@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Sam Koesnadi"
   avatar           : "/assets/images/authors/sam.png"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Developer, a partner"
+  bio              : "Senior MLOps Engineer, a partner"
   location         : "Stuttgart"
   email            : ceo@technology-robot.com
   links:

@@ -38,13 +38,13 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    width: calc(100% - #{$left-sidebar-width-narrow});
+    padding-right: $left-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    width: calc(100% - #{$left-sidebar-width});
+    padding-right: $left-sidebar-width;
   }
 
   .page__inner-wrap {
@@ -178,7 +178,7 @@ body {
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 2emem;
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -187,7 +187,7 @@ body {
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
     padding: 1em 0;
     @include clearfix;
     background-size: cover;
@@ -532,11 +532,11 @@ body {
 
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
+    width: calc(100% - #{$left-sidebar-width-narrow});
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(100% - #{$left-sidebar-width});
   }
 
   a {

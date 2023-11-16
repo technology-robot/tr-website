@@ -9,20 +9,25 @@ $(function() {
   // Sticky sidebar
   var stickySideBar = function() {
     // Sam : do not make it sticky
-    // var show =
-    //   $(".author__urls-wrapper").find("button").length === 0
-    //     ? $(window).width() > 1024 // width should match $large Sass variable
-    //     : !$(".author__urls-wrapper").find("button").is(":visible");
-    // if (show) {
-    //   // fix
-    //   $(".sidebar").addClass("sticky");
-    // } else {
-    //   // unfix
-    //   $(".sidebar").removeClass("sticky");
-    // }
+    var show =
+      $(".author__urls-wrapper").find("button").length === 0
+        ? $(window).width() > 1024 // width should match $large Sass variable
+        : !$(".author__urls-wrapper").find("button").is(":visible");
+
+    if (show) {
+      // fix
+      $(".sidebar").addClass("sticky");
+    } else {
+      // unfix
+      $(".sidebar").removeClass("sticky");
+    }
   };
 
   stickySideBar();
+
+  $(window).scroll(function() {
+    stickySideBar();
+  });
 
   $(window).resize(function() {
     stickySideBar();

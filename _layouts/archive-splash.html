@@ -15,43 +15,56 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  <div style="display: table;">
+    {% include sidebar.html %}
 
-  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+    <div>
+      <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-    {% if page.show_post %}
-    <section class="page__content" itemprop="text">
-      <div class="archive">
-        {% unless page.header.overlay_color or page.header.overlay_image %}
-          <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-        {% endunless %}
+        {% if page.show_post %}
+        <section class="page__content" itemprop="text">
+          <div class="archive">
+            {% unless page.header.overlay_color or page.header.overlay_image %}
+              <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+            {% endunless %}
 
-        <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-        {% if paginator %}
-          {% assign posts = paginator.posts %}
-        {% else %}
-          {% assign posts = site.posts %}
+            {% if page.below_header_text %} {{ page.below_header_text }} {% endif %}
+          </div>
+        </section>
         {% endif %}
+      </article>
+    </div>
+  </div>
 
-        {% assign entries_layout = page.entries_layout | default: 'list' %}
-        <div class="entries-{{ entries_layout }}">
-          {% for post in posts limit:2 %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        </div>
+  <!-- {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }} -->
+  <div style="display: table;">
+    <div id="myArchive" style="display: table-row">
+      <hr />
+      <h3 class="archive__subtitle">🗞️ Latest posts to read</h3>
 
-        {% include paginator.html %}
-
-        <br />
+      {% if paginator %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
+    
+      {% assign entries_layout = page.entries_layout | default: 'list' %}
+      <div class="entries-{{ entries_layout }}">
+        {% for post in posts %}
+          {% include archive-single.html type=entries_layout %}
+        {% endfor %}
       </div>
-    </section>
-    {% endif %}
+    
+      {% include paginator.html %}
+      <hr />
+    </div>
 
-    {{ content }}
-  </article>
+    <div id="content" style="margin-top: 2em; display: table-row">
+      {{ content }}
+    </div>
+  </div>
 </div>

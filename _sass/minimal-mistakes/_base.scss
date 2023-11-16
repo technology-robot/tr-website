@@ -27,7 +27,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
+  // margin: 2em 0 0.5em;
+  margin: 1em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -336,4 +337,9 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+.banner {
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
