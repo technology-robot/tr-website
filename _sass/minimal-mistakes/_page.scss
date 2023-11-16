@@ -576,3 +576,26 @@ body {
     }
   }
 }
+
+.banner-text-box {
+  width: fit-content;
+  // border: 2px solid #f0f0f040;
+  color: #030303;
+  background-color: #f0f0f097;
+  opacity: 1.0;
+  border-radius: 5px;
+  position: absolute;
+  padding: 10px 15px;
+}
+
+.banner {
+  display: block;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
