@@ -16,6 +16,31 @@ layout: default
 
 <div id="main" role="main">
   <div style="display: table;">
+    <div id="myArchive" style="display: table-row">
+      <h3 id="latest-posts-to-read" class="archive__subtitle">📰 Latest posts to read</h3>
+
+      {% if paginator %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
+    
+      {% assign entries_layout = page.entries_layout | default: 'list' %}
+      <div class="entries-{{ entries_layout }}">
+        {% for post in posts %}
+          {% include archive-single.html type=entries_layout %}
+        {% endfor %}
+      </div>
+    
+      {% include paginator.html %}
+    </div>
+
+    <div id="content" style="margin-top: 2em; display: table-row">
+      {{ content | markdownify }}
+    </div>
+  </div>
+
+  <div style="display: table;">
     {% include sidebar.html %}
 
     <div>
@@ -40,31 +65,7 @@ layout: default
     </div>
   </div>
 
-  <!-- {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }} -->
-  <div style="display: table;">
-    <div id="myArchive" style="display: table-row">
-      <hr />
-      <h3 class="archive__subtitle">🗞️ Latest posts to read</h3>
-
-      {% if paginator %}
-        {% assign posts = paginator.posts %}
-      {% else %}
-        {% assign posts = site.posts %}
-      {% endif %}
-    
-      {% assign entries_layout = page.entries_layout | default: 'list' %}
-      <div class="entries-{{ entries_layout }}">
-        {% for post in posts %}
-          {% include archive-single.html type=entries_layout %}
-        {% endfor %}
-      </div>
-    
-      {% include paginator.html %}
-      <hr />
-    </div>
-
-    <div id="content" style="margin-top: 2em; display: table-row">
-      {{ content }}
-    </div>
+  <div>
+    {{ page.content_bottom }}
   </div>
 </div>

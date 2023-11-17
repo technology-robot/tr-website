@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "🗞️ Read Posts"
+  - title: "📰 Read posts"
     url: /posts/
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
+  - title: "👥 About us"
+    url: /#-about-us
+  # - title: "Terms &amp; Privacy Policy"
+  #   url: /terms/

@@ -1,9 +1,8 @@
 ---
 layout: archive-splash
+entries_layout: grid
 author_profile: true
 show_post: true
-hidden: true
-permalink: /
 header:
   overlay_color: "#303030"
   overlay_image: /assets/images/banner.gif
@@ -11,34 +10,69 @@ header:
     - label: "<i class='fas fa-paper-plane'></i> Try Aisha now"
       url: "https://aisha.technology-robot.com/"
 below_header_text: >
-  <h6 style="margin: 1em; margin-top: 0em">👨‍💻 Technology Robot offers product that helps you with</h4>
+  <h6 style="margin: 1em; margin-top: 0em">👨‍💻 We are commited to build products that help you have</h6>
   <hr />
   <div class="banner">
     <div class="banner-text-box">Production-ready custom AI solutions</div>
-    <img class="banner-img" src="./assets/images/banners/banner-2.png" alt="Production-ready custom AI solutions">
+    <img class="banner-img" src="/assets/images/banners/banner-2.png" alt="Production-ready custom AI solutions">
   </div>
 
   <div class="banner">
     <div class="banner-text-box">Applying top-notch tech expertise</div>
-    <img class="banner-img" src="./assets/images/banners/banner-1.png" alt="Applying top-notch tech expertise">
+    <img class="banner-img" src="/assets/images/banners/banner-1.png" alt="Applying top-notch tech expertise">
   </div>
-
+  
   <div class="banner">
     <div class="banner-text-box">Quality guaranteed, delivered on time</div>
-    <img class="banner-img" src="./assets/images/banners/banner-3.png" alt="Quality guaranteed, delivered on time">
+    <img class="banner-img" src="/assets/images/banners/banner-3.png" alt="Quality guaranteed, delivered on time">
   </div>
-
 excerpt: >
   Meet "Aisha" - It is an advanced AI chatbot which intelligently searches and retrieves information 
   from any code repository, for your need.
+
+banner_aisha:
+  image_path: /assets/images/banners/aisha-screenshot.png
+  alt: "Aisha screenshot"
+  title: "Aisha for code"
+  excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+  url: "#test-link"
+  btn_label: "Read More"
+  btn_class: "btn--primary"
+  style: "width: 100%"
+
 feature_row:
-  - title: "Artifical Intelligence"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - title: "Software Development"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - title: "Cloud Technology"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/banners/expertise/1.png
+    alt: "Artifical Intelligence"
+    title: "Artifical Intelligence"
+    excerpt: >
+      Artificial Intelligence (AI) represents a revolutionary leap in technology, enabling machines to learn, reason, and make decisions akin to human intelligence. It's transforming industries, from healthcare to finance, by providing insights and efficiencies previously unattainable. AI's potential for innovation is vast, holding promise for solving some of the most complex challenges faced by society today.
+  - image_path: /assets/images/banners/expertise/2.png
+    alt: "Software Development"
+    title: "Software Development"
+    excerpt: >
+      Software development is the creative and technical process of designing, writing, testing, and maintaining computer programs or applications. It encompasses a range of tasks from coding and algorithm design to user interface creation and data management. This field is constantly evolving, driven by rapid technological advancements and the growing need for more sophisticated and user-friendly software solutions.
+  - image_path: /assets/images/banners/expertise/3.png
+    alt: "Cloud Technology"
+    title: "Cloud Technology"
+    excerpt: >
+      Cloud technology represents a paradigm shift in data management and computing, offering scalable, remote access to shared pools of configurable resources like servers, storage, and applications. It enables businesses and individuals to store and process data over the internet, reducing the need for physical hardware and facilitating global collaboration. This technology is pivotal in driving innovation, efficiency, and flexibility in various sectors, revolutionizing how we access and interact with digital resources.
+content_bottom: >
+  <h4> You can book a free consultation with me for specific use-cases you have in mind </h4>
+  <!-- Google Calendar Appointment Scheduling begin -->
+  <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3WBW80cLdVDj9YBkKeZdL0tWYnm6gRurc5XaDX6dDlA02Wa8S5VG763RheDKOgUMUuMix_0Lxu?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+  <!-- end Google Calendar Appointment Scheduling -->
 ---
 
-test
+## 🏷 Our sample products
+
+---
+
+{% include banner id="banner_aisha" type="center" %}
+
+## 👥 About us
+
+---
+
+We build customized products for you, and focusing on these three topics...
+
 {% include feature_row %}

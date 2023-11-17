@@ -1,0 +1,26 @@
+{% if include.id %}
+  {% assign banner = page[include.id] %}
+{% else %}
+  {% assign banner = page.banner %}
+{% endif %}
+
+<div class="banner">
+  <div class="banner-text-box">
+    <div class="archive__item-body">
+      {% if banner.title %}
+        <h2 class="archive__item-title">{{ banner.title }}</h2>
+      {% endif %}
+
+      {% if banner.excerpt %}
+        <div class="archive__item-excerpt">
+          {{ banner.excerpt | markdownify }}
+        </div>
+      {% endif %}
+
+      {% if banner.url %}
+        <p><a href="{{ banner.url | relative_url }}" class="btn {{ banner.btn_class }}">{{ banner.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+      {% endif %}
+    </div>
+  </div>
+  <img class="banner-img" src="{{ banner.image_path }}" alt="{{ banner.alt }}">
+</div>
