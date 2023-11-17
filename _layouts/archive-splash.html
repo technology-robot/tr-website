@@ -66,6 +66,10 @@ layout: default
   </div>
 
   <div>
-    {{ page.content_bottom }}
+    {{ page.content_bottom_md | markdownify }}
+  </div>
+
+  <div>
+    {{ page.content_bottom_html }}
   </div>
 </div>
