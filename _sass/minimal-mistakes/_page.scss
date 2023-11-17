@@ -588,7 +588,9 @@ body {
 }
 
 .banner {
-  display: block;
+  display: flex;
+  justify-content: left;
+  align-items: start;
   position: relative;
 }
 

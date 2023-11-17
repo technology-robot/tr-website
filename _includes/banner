@@ -4,8 +4,8 @@
   {% assign banner = page.banner %}
 {% endif %}
 
-<div class="banner">
-  <div class="banner-text-box" {%if banner.textbox_style %}style="{{ banner.textbox_style }}"{% endif %}>
+<div class="banner" {%if banner.style %}style="{{ banner.style }}"{% endif %}>
+  <div class="banner-text-box">
     <div class="archive__item-body">
       {% if banner.title %}
         <h2 class="archive__item-title">{{ banner.title }}</h2>
@@ -18,11 +18,11 @@
       {% endif %}
 
       {% if banner.url %}
-        <p><a href="{{ banner.url | relative_url }}" class="btn {{ banner.btn_class }}">{{ banner.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        <p><a href="{{ banner.url | relative_url }}" class="btn {{ banner.btn_class }}" target="_blank" rel="noreferrer noopener">{{ banner.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
     </div>
   </div>
-  <a href="{{ banner.url | relative_url }}">
+  <a href="{{ banner.url | relative_url }}" target="_blank" rel="noreferrer noopener">
     <img class="banner-img" src="{{ banner.image_path }}" alt="{{ banner.alt }}">
   </a>
 </div>
