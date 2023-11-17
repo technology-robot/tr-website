@@ -5,7 +5,7 @@
 {% endif %}
 
 <div class="banner">
-  <div class="banner-text-box">
+  <div class="banner-text-box" {%if banner.textbox_style %}style="{{ banner.textbox_style }}"{% endif %}>
     <div class="archive__item-body">
       {% if banner.title %}
         <h2 class="archive__item-title">{{ banner.title }}</h2>
@@ -22,5 +22,7 @@
       {% endif %}
     </div>
   </div>
-  <img class="banner-img" src="{{ banner.image_path }}" alt="{{ banner.alt }}">
+  <a href="{{ banner.url | relative_url }}">
+    <img class="banner-img" src="{{ banner.image_path }}" alt="{{ banner.alt }}">
+  </a>
 </div>
