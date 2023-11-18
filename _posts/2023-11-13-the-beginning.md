@@ -1,5 +1,8 @@
 ---
 title: The beginning of technology robot
+header:
+  image: /assets/images/articles/beginning-of-tr.png
+  og_image: /assets/images/articles/beginning-of-tr.png
 categories:
   - general
 tags:
@@ -7,7 +10,7 @@ tags:
   - mindset
 ---
 
-Technology Robot (TR) is a lifelong project. After years of gathering expertise, Sam Koesnadi, the founder, find it is best to dedicate his time and energy into helping companies to integrate the latest state-of-the-art technology known at the time. As of 2023, he has expertise in AI, cloud computing, and software development ready to be used for various businesses' use-case.
+Technology Robot (TR) is a lifelong project. After years of gathering expertise, Sam Koesnadi, the founder, finds it is best to dedicate his time and energy into helping companies to integrate the latest state-of-the-art technology known at the time. As of 2023, he has expertise in AI, cloud computing, and software development ready to be used for various businesses' use-cases.
 
 ## Motivation
 
@@ -25,4 +28,4 @@ As Technology Robot embarks on its journey, the road ahead is filled with opport
 
 ## Technology Robot's mindset
 
-Sam's story is not one of overnight success or serendipitous breakthroughs. It is a narrative of persistent curiosity, evolving expertise, and a vision to make a tangible difference in the world of technology and business. This is, although sounds cheesy, the genesis of Technology Robot. His fascination with technology began not as a whimsical interest, but as a deep-seated desire to understand how things work. This curiosity soon transformed into a dedicated pursuit of knowledge in the fields of artificial intelligence (AI), cloud computing, and software development, and further more in the future. These areas, booming with potential, became the pillars upon which Sam has built his expertise. The will to always improve and act on it, is at its core of our mindset.
+Sam's story is not one of overnight success or serendipitous breakthroughs. It is a narrative of persistent curiosity, evolving expertise, and a vision to make a tangible difference in the world of technology and business. This is, although sounds cheesy, the genesis of Technology Robot. His fascination with technology began not as a whimsical interest, but as a deep-seated desire to understand how things work. This curiosity soon transformed into a dedicated pursuit of knowledge in the fields of artificial intelligence (AI), cloud computing, software development and further more in the future. The will to always improve and act on it, is at its core of our mindset.
