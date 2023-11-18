@@ -21,7 +21,7 @@ title                    : "Serious, complex AI made simple"
 title_separator          : "-"
 subtitle                 : "dedicated to deliver the best technological solution for your need" # site tagline that appears below site title in masthead
 name                     : "Sam Koesnadi"
-description              : "A step in technology"
+description              : "Technology Robot works on latest technology trend and applies it in your own business"
 url                      : "https://technology-robot.com"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""  # the subpath of your site, e.g. "/blog"
 repository               : "technology-robot/technology-robot-website"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
