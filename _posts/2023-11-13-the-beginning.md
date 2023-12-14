@@ -1,12 +1,11 @@
 ---
 title: The beginning of technology robot
 header:
-  image: /assets/images/articles/beginning-of-tr.png
-  og_image: /assets/images/articles/beginning-of-tr.png
+  image: /assets/images/articles/2023-11-13-the-beginning.png
+  og_image: /assets/images/articles/2023-11-13-the-beginning.png
 categories:
-  - general
+  - story
 tags:
-  - content
   - mindset
 ---
 

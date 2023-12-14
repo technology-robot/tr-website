@@ -39,40 +39,4 @@ layout: default
       {{ content | markdownify }}
     </div>
   </div>
-
-  <div style="display: table;">
-    {% include sidebar.html %}
-
-    <div>
-      <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
-        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
-
-        {% if page.show_post %}
-        <section class="page__content" itemprop="text">
-          <div class="archive">
-            {% unless page.header.overlay_color or page.header.overlay_image %}
-              <h1 id="page-title" class="page__title">{{ page.title }}</h1>
-            {% endunless %}
-
-            {% if page.below_header_text %} {{ page.below_header_text }} {% endif %}
-          </div>
-        </section>
-        {% endif %}
-      </article>
-    </div>
-  </div>
-
-  <!-- <div>
-    <br />
-    We build customized products for you, and focusing on these three topics...
-    <hr />
-    {% include feature_row %}
-  </div> -->
-
-  <div>
-    {{ page.content_bottom_html }}
-  </div>
 </div>
