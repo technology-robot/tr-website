@@ -4,7 +4,7 @@ title: "Vision"
 layout: single
 toc: true
 header:
-  overlay_color: "#303030"
+  overlay_color: "#848789"
 show_author: true
 feature_row_specialties:
   - image_path: /assets/images/banners/expertise/1.png

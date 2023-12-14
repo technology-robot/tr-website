@@ -4,7 +4,7 @@ title: "Sami"
 toc: true
 layout: splash
 header:
-  overlay_color: "#303030"
+  overlay_color: "#848789"
 ---
 
 # Defining vision and mission

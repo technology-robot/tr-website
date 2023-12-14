@@ -4,7 +4,7 @@ title: "Terms and Privacy Policy"
 toc: true
 layout: splash
 header:
-  overlay_color: "#303030"
+  overlay_color: "#848789"
 ---
 
 ## 1. Introduction

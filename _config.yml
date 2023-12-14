@@ -20,7 +20,7 @@ posts_truncate_len       : 100  # How long does the posts shown in the main land
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Invension in intelligence"
+title                    : "Invention in intelligence"
 title_separator          : "-"
 subtitle                 : "Intelligence for all" # site tagline that appears below site title in masthead
 name                     : "Sam Koesnadi"
