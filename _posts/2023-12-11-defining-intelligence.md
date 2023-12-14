@@ -1,5 +1,5 @@
 ---
-title: Making intelligence accessible to everyone
+title: What is "Intelligence for all"?
 header:
   image: /assets/images/articles/2023-12-11-defining-intelligence.png
   og_image: /assets/images/articles/2023-12-11-defining-intelligence.png
