@@ -1,6 +1,6 @@
 ---
-permalink: /vision/
-title: "Vision"
+permalink: /mission/
+title: "Mission"
 layout: single
 toc: true
 header:
@@ -25,6 +25,8 @@ feature_row_specialties:
 
 ---
 
+[Intelligence for all]({% link _posts/2023-12-11-defining-intelligence.md %})
+
 ## Commitment
 
 We build intelligent products for
@@ -35,12 +37,12 @@ We build intelligent products for
   </div>
 
   <div class="banner">
-    <div class="banner-text-box">Technology integration into your system</div>
-    <img class="banner-img" src="/assets/images/banners/banner-1.png" alt="Technology integration into your system">
+    <div class="banner-text-box">Fast delivery</div>
+    <img class="banner-img" src="/assets/images/banners/banner-1.png" alt="Fast delivery">
   </div>
-  
+
   <div class="banner">
-    <div class="banner-text-box">High quality, timely delivery</div>
+    <div class="banner-text-box">High quality</div>
     <img class="banner-img" src="/assets/images/banners/banner-3.png" alt="High quality, timely delivery">
   </div>
 

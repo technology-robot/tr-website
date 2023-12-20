@@ -1,6 +1,6 @@
 ---
 permalink: /demo/
-title: "Book a demo"
+title: "Book a personal demo"
 layout: single
 header:
   overlay_color: "#848789"

@@ -1,8 +1,5 @@
 ---
 title: The beginning of technology robot
-header:
-  image: /assets/images/articles/2023-11-13-the-beginning.png
-  og_image: /assets/images/articles/2023-11-13-the-beginning.png
 categories:
   - story
 tags:

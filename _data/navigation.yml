@@ -1,25 +1,10 @@
 # main links
 main:
-  - title: "Aisha"
-    url: /aisha/
-  - title: "❤️"
-  - title: "Chaplin"
-    url: /chaplin/
-  - title: "Demo"
-    url: /demo/
-  - title: "Posts"
+  - title: "All posts"
     url: /posts/
-  # - title: "Tags"
-  #   url: /tags/#featured
-  # - title: "Authors"
-  #   url: /author/
-  - title: "Vision"
-    url: /vision/
-  # - title: "Terms &amp; Privacy Policy"
-  #   url: /terms/
-
-aisha:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /aisha/quick-start-guide/
+  - title: "📁"
+    url: /categories/
+  - title: "#️⃣"
+    url: /tags/
+  - title: "Mission"
+    url: /mission/
