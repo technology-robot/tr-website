@@ -16,7 +16,7 @@ theme                    : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Custom variables
-posts_truncate_len       : 100  # How long does the posts shown in the main landing page (root page)
+posts_truncate_len       : 200  # How long does the posts shown in the main landing page (root page)
 
 # Site Settings
 locale                   : "en-US"
