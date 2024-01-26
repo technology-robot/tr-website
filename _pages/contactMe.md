@@ -1,6 +1,6 @@
 ---
-permalink: /demo/
-title: "Book a personal demo"
+permalink: /contact-me/
+title: "Contact me"
 layout: single
 header:
   overlay_color: "#848789"

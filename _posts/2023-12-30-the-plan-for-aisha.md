@@ -1,5 +1,5 @@
 ---
-title: The plan for Aisha
+title: The plan for Aisha (now pivoted)
 categories:
   - aisha
 tags:

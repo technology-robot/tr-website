@@ -1,9 +1,11 @@
 # main links
 main:
+  - title: "Aisha"
+    url: /aisha/
   - title: "Posts"
     url: /posts/
-  - title: "Demo"
-    url: /demo/
+  - title: "Contact me"
+    url: /contact-me/
   - title: "Mission"
     url: /mission/
   - title: "📁"

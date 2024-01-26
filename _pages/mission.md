@@ -25,11 +25,11 @@ feature_row_specialties:
 
 ---
 
-[Intelligence for all]({% link _posts/2023-12-11-defining-intelligence.md %})
+<!-- [Intelligence for all]({% link _posts/2023-12-11-defining-intelligence.md %}) -->
 
 ## Commitment
 
-We build intelligent products for
+I always build strive to build products that satisfy the following quality:
 
   <div class="banner">
     <div class="banner-text-box">Production-ready solutions</div>
@@ -42,12 +42,12 @@ We build intelligent products for
   </div>
 
   <div class="banner">
-    <div class="banner-text-box">High quality</div>
+    <div class="banner-text-box">High standard</div>
     <img class="banner-img" src="/assets/images/banners/banner-3.png" alt="High quality, timely delivery">
   </div>
 
 <br />
 
-## Our specialties
+## My current specialties
 
 {% include feature_row id="feature_row_specialties" type="right" %}
