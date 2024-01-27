@@ -25,7 +25,7 @@ show_author: false
 Build pipelines and blocks to automate software workflow
 {: refdef}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lfjd0dSER9Y?si=tw242u7uYxrfxexw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y3qweF534js?si=2QbCwwXomvK-OAVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 &nbsp;
 
