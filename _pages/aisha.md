@@ -27,6 +27,8 @@ Build pipelines and blocks to automate software workflow
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3qweF534js?si=2QbCwwXomvK-OAVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+> It is like Azure ML pipeline or Vertex AI pipeline but runs locally on your computer or your remote compute clusters... allowing you to also develop the pipeline easily with UI.
+
 &nbsp;
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdVAGUyvnnkI_GTPhGiCIa4wSa-5tMh8EeDS34GmfS5pZMAcQ/viewform?embedded=true" frameborder="0" height="700" marginheight="0" marginwidth="0" style="position: relative; width: 100%">Loading…</iframe>
