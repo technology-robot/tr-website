@@ -12,7 +12,7 @@ show_author: false
 # coming soon
 {: refdef}
 
-# 15 February 2024
+# 22nd February 2024
 {: refdef}
 
 # Aisha's
